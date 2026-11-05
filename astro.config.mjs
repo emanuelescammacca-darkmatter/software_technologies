@@ -10,7 +10,7 @@ import { defineConfig, fontProviders } from 'astro/config';
 // https://astro.build/config
 export default defineConfig({
 	site: 'https://github.com/emanuelescammacca-darkmatter/software_technologies.git',
-	base: 'software_technologies',
+	base: '/my-site/',
 
 	
 	integrations: [mdx(), sitemap()],
